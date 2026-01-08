@@ -18,7 +18,7 @@ body {
 .hero-image {
     height: 810px;
     width: 100%;
-    background-image: url("images/banner/banner1.png");
+    background-image: url("/images/banner/banner1.png");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -57,6 +57,7 @@ body {
 .failures-container {
     max-width: 1072px;
     margin: 0 auto;
+    margin-bottom: 130px;
 }
 
 .failures {
@@ -98,4 +99,44 @@ body {
     font-size: 16px;
     color: #444343;
     line-height: 26px;
+}
+
+.plans-heading h2 {
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plans-card {
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    max-width: 1140px;
+    margin-bottom: 130px;
+}
+
+.card {
+    text-align: center;
+}
+
+.card img {
+    width: 92px;
+    height: 92px;
+    margin-bottom: 18px;
+}
+
+.card h3 {
+    font-size: 30px;
+    color: #151414;
+    margin-bottom: 16px;
+    white-space: nowrap;
+}
+
+.card p {
+    font-size: 25px;
+    color: #737272;
+    white-space: nowrap;
 }
