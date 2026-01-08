@@ -52,6 +52,7 @@ body {
     border-radius: 5px;
     font-size: 20px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .failures-container {
@@ -167,4 +168,68 @@ body {
     outline: none;
     border: none;
     margin-top: 24px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #151414;
+}
+
+.footer-container {
+    display: flex;
+    gap: 331px;
+    justify-content: space-between;
+    align-items: start;
+    max-width: 1140px;
+    margin: 0 auto;
+    color: white;
+    padding: 130px 0;
+}
+
+.media h2 {
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+
+.media p {
+    width: 485px;
+    line-height: 26px;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.icons a img {
+    width: 46px;
+    height: 46px;
+    margin-right: 18px;
+}
+
+.mail h3 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+#email {
+    outline: none;
+    border: none;
+    width: 325px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 21px 0 21px 21px;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 16px;
+}
+
+input[type=submit] {
+    padding: 20px 36px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #F15B22;
+    font-weight: 600;
+    cursor: pointer;
 }
